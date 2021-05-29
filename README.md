@@ -4,9 +4,9 @@
 using the following CFG: ({EXPR, TERM, FACTOR}, {a, b, c, +, *, (, )}, R, EXPR), where R contains 
 
 
-ˋEXPR -> EXPR + TERM | TERMˋ
-&nbsp; &nbsp;TERM -> TERM * FACTOR | FACTOR
-&nbsp; &nbsp;FACTOR -> (EXPR)|a|b|c
+>EXPR -> EXPR + TERM | TERM
+>TERM -> TERM * FACTOR | FACTOR
+>FACTOR -> (EXPR)|a|b|c
 
 
 *For example, ((a+b)*a+c)*a+b*c should be evaluated to 12 when a=1, b=2, c=3.
