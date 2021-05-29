@@ -13,7 +13,7 @@ using the following CFG:
 >>FACTOR -> (EXPR)|a|b|c
 
 
-&nbsp; &nbsp; &nbsp; &nbsp;For example, ((a+b)*a+c)*a+b*c should be evaluated to 12 when a=1, b=2, c=3.
+&nbsp; &nbsp; &nbsp; &nbsp;For example, ((a + b) * a + c) * a + b * c should be evaluated to 12 when a=1, b=2, c=3.
 
 
 ## Strucure of files
