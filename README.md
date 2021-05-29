@@ -34,3 +34,10 @@ python3 main_parser.py
 This will start the parser. You can test it by yourself. The output is a number.
 
 ![image](https://github.com/oh-hi-yo/theory_of_computing_Parser/blob/main/result_picture1.png)
+
+## Reference
+
+-https://github.com/dabeaz/ply
+-https://ply.readthedocs.io/en/latest/ply.html#an-example
+-https://github.com/zivalee/simple-py-parser
+
