@@ -25,8 +25,11 @@ using the following CFG:
 
 ## Usage
 
-ˋˋˋpython
+ˋˋˋ
+
 python3 main_parser.py
+
+
 ˋˋˋ
 
 This will start the parser. You can test it by yourself. The output is a number.
