@@ -1,6 +1,6 @@
 # theory_of_computing_Parser HW4
 
-*Write a small parser to evaluate any legitimate expression consisting of a, b, c, +, *, (,), 
+* Write a small parser to evaluate any legitimate expression consisting of a, b, c, +, *, (,), 
 using the following CFG: 
 
 
@@ -37,9 +37,9 @@ This will start the parser. You can test it by yourself. The output is a number.
 
 ## Reference
 
-*https://github.com/dabeaz/ply
+* https://github.com/dabeaz/ply
 
-*https://ply.readthedocs.io/en/latest/ply.html#an-example
+* https://ply.readthedocs.io/en/latest/ply.html#an-example
 
-*https://github.com/zivalee/simple-py-parser
+* https://github.com/zivalee/simple-py-parser
 
