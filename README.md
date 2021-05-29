@@ -5,7 +5,9 @@ using the following CFG: ({EXPR, TERM, FACTOR}, {a, b, c, +, *, (, )}, R, EXPR),
 
 
 >EXPR -> EXPR + TERM | TERM
+>
 >TERM -> TERM * FACTOR | FACTOR
+>
 >FACTOR -> (EXPR)|a|b|c
 
 
