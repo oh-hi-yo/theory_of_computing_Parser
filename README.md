@@ -4,7 +4,7 @@
 using the following CFG: ({EXPR, TERM, FACTOR}, {a, b, c, +, *, (, )}, R, EXPR), where R contains 
 
 
-&nbsp; &nbsp;EXPR -> EXPR + TERM | TERM
+ˋEXPR -> EXPR + TERM | TERMˋ
 &nbsp; &nbsp;TERM -> TERM * FACTOR | FACTOR
 &nbsp; &nbsp;FACTOR -> (EXPR)|a|b|c
 
