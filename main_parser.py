@@ -33,6 +33,7 @@ def p_term_times(p):
     'term : term TIMES factor'
     p[0] = p[1] * p[3]
 
+
 def p_term_factor(p):
     'term : factor'
     p[0] = p[1]
@@ -47,9 +48,8 @@ def p_factor_ID(p):
         p[0] = b_value
     elif p[1] == 'c':
         p[0] = c_value
-        
-        
-        
+
+
 # p_factor_ID refer this
 
 # def p_binary_operators(p):
@@ -65,7 +65,7 @@ def p_factor_ID(p):
 #         p[0] = p[1] * p[3]
 #     elif p[2] == '/':
 #         p[0] = p[1] / p[3]
-        
+
 
 def p_factor_expr(p):
     'factor : LPAREN expression RPAREN'
@@ -75,18 +75,20 @@ def p_factor_expr(p):
 def p_error(p):
     print("Syntax error in input!")
 
+
 # Build the parser
 parser = yacc.yacc()
 
 while True:
-   try:
-       s = input('calc > ')
-       a_value = int(input('   a > '))
-       b_value = int(input('   b > '))
-       c_value = int(input('   c > '))
-   except EOFError:
-       break
-   if not s: continue
-   result = parser.parse(s)
-   
-   print('answer is %d' %result)
+    try:
+        s = input('calc > ')
+        a_value = int(input('   a > '))
+        b_value = int(input('   b > '))
+        c_value = int(input('   c > '))
+    except EOFError:
+        break
+    if not s:
+        continue
+    result = parser.parse(s)
+
+    print('answer is %d' % result)
