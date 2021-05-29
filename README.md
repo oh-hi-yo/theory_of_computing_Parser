@@ -1,9 +1,11 @@
 # theory_of_computing_Parser HW4
 
 *Write a small parser to evaluate any legitimate expression consisting of a, b, c, +, *, (,), 
-using the following CFG: ({EXPR, TERM, FACTOR}, {a, b, c, +, *, (, )}, R, EXPR), where R contains 
+using the following CFG: 
 
 
+>({EXPR, TERM, FACTOR}, {a, b, c, +, *, (, )}, R, EXPR), where R contains 
+>
 >EXPR -> EXPR + TERM | TERM
 >
 >TERM -> TERM * FACTOR | FACTOR
